@@ -1,0 +1,78 @@
+/* styles.css */
+
+/* Style for the container */
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+h1{
+  color: crimson;
+  text-align: center;
+  margin: 8px;
+}
+
+/* Style for the input container */
+input[type="text"] {
+  margin-bottom: 20px;
+}
+
+/* Style for the input field */
+input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 300px;
+}
+
+/* Style for the button */
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h2{
+  color: crimson;
+}
+
+/* Style for the error message */
+p {
+  color: #007bff;
+  margin-top: 10px;
+}
+
+/* Style for the results container */
+.result-container {
+  margin-top: 20px;
+  text-align: center;
+  border: 2px solid #ccc; /* Add border */
+  border-radius: 4px; /* Add border radius */
+  padding: 20px; /* Add padding */
+}
+
+/* Style for the result */
+.result {
+  margin-bottom: 10px;
+}
+
+/* Style for the program name */
+.result h2 {
+  font-size: 24px;
+}
+
+/* Style for the program description */
+.result p {
+  font-size: 18px;
+}
